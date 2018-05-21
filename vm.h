@@ -24,6 +24,7 @@ typedef enum{
 	HLT  // Stops the program.
 }		InstructionSet;
 
+// This is only if you use registers instead of stack.
 typedef enum{
 	A, B, C, D, E, F, // Arrays becuase enums.
 	NUM_OF_REGISTERS // Used to see if the number of registers changes.
